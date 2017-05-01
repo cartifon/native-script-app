@@ -7,7 +7,7 @@ var page;
 var email;
 
 var user = new UserViewModel({
-    email: "username@domain.com",
+    email: "user@nativescript.org",
     password: "password"
 });
 
