@@ -6,7 +6,10 @@ var frameModule = require("ui/frame");
 var page;
 var email;
 
-var user = new UserViewModel();
+var user = new UserViewModel({
+    email: "username@domain.com",
+    password: "password"
+});
 
 exports.loaded = function(args) {
     page = args.object;
