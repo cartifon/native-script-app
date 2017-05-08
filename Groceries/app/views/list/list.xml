@@ -1,4 +1,11 @@
 <Page loaded="loaded">
+    <Page.actionBar>
+        <ActionBar title="Groceries">
+            <ActionBar.actionItems>
+                <ActionItem text="Share" tap="share" ios.position="right" />
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
     <GridLayout rows="auto, *" columns="2*, *">
         <ListView items="{{ groceryList }}" id="groceryList" row="1" colSpan="2">
             <ListView.itemTemplate>
